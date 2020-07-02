@@ -1,0 +1,7 @@
+<form [formGroup] = "mathForm">
+    <div class="equation">{{a}} + {{b}} =</div>
+    <input formControlName="answer" />
+</form>
+<div class="stats">
+    {{secsPerSoln | number:'1.1-3'}}
+</div>
